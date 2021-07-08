@@ -1,0 +1,17 @@
+
+server: 
+  port: 8713
+  undertow:
+    direct-buffers: true
+    threads:
+      io: 4
+      worker: 150
+    
+spring:
+  application:
+    name: bazl-dna-swagger
+  
+swagger:  enabled: true  
+
+logging:
+  config: classpath:logback-spring.xml

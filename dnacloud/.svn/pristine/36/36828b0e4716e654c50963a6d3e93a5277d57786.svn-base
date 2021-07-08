@@ -1,0 +1,17 @@
+#部署目录
+deploy:
+  location: /Users/zhaoyong/Documents/workspace/www.oner365.com/cloud/dna-nacos
+  name: /Users/zhaoyong/Documents/deploy_nacos
+  version: 1.0.0-SNAPSHOT
+  suffix: jar
+  project: bazl-dna-elasticsearch,bazl-dna-files,bazl-dna-gateway,bazl-dna-generator,bazl-dna-kafka,bazl-dna-monitor,bazl-dna-system
+  lib: bazl-dna-common,bazl-dna-api
+
+#服务器配置  
+servers:
+  deploy: true
+  name: /usr/local/tomcat/dnacloud
+  ip: 192.168.101.130
+  port: 22
+  username: root
+  password: root

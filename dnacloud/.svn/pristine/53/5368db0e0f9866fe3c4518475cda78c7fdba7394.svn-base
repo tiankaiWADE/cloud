@@ -1,0 +1,26 @@
+server:
+  port: 8704
+      
+spring:
+  application:
+    name: bazl-dna-gateway
+
+  cloud:    gateway:      httpclient:        connect-timeout: 1000000
+        response-timeout: 100s      discovery:        locator:          enabled: false
+          lower-case-service-id: true
+          
+      routes:
+      
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8 
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+logging:
+  config: classpath:logback-spring.xml
+      

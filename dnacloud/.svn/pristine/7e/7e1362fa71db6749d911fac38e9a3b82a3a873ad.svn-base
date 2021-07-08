@@ -1,0 +1,59 @@
+package com.bazl.dna.sys.service;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.data.domain.Page;
+
+import com.alibaba.fastjson.JSONObject;
+import com.bazl.dna.sys.entity.SysLog;
+
+/**
+ * 日志接口
+ * @author zhaoyong
+ */
+public interface ISysLogService {
+
+	/**
+	 * 查询分页列表
+	 * @param paramJson 参数
+	 * @return Page
+	 */
+	public Page<SysLog> pageList(JSONObject paramJson);
+	
+	/**
+	 * 查询列表
+	 * @param paramJson 参数
+	 * @return List
+	 */
+	public List<SysLog> findList(JSONObject paramJson);
+
+	/**
+	 * 查询详情
+	 * @param id 编号
+	 * @return SysLog
+	 */
+	public SysLog getById(String id);
+
+	/**
+	 * 保存
+	 * @param sysLog 对象
+	 * @return SysLog
+	 */
+	public SysLog save(SysLog sysLog);
+
+	/**
+	 * 删除
+	 * @param id 编号
+	 * @return int
+	 */
+	public int deleteById(String id);
+
+	/**
+	 * 按日期删除
+	 * @param date 日期
+	 * @return int 
+	 */
+	public int deleteLog(Date date);
+
+}
