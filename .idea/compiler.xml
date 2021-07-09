@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bazl-dna-common" />
+        <module name="bazl-dna-hadoop" />
+        <module name="bazl-dna-kafka (1)" />
+        <module name="bazl-dna-eureka" />
+        <module name="bazl-dna-monitor" />
+        <module name="bazl-dna-files" />
+        <module name="bazl-dna-deploy" />
+        <module name="bazl-dna-api " />
+        <module name="bazl-dna-config" />
+        <module name="bazl-dna-websocket" />
+        <module name="bazl-dna-system (1)" />
+        <module name="bazl-dna-system" />
+        <module name="bazl-dna-files (1)" />
+        <module name="bazl-dna-common (1)" />
+        <module name="bazl-dna-deploy (1)" />
+        <module name="bazl-dna-swagger" />
+        <module name="bazl-dna-springboot" />
+        <module name="bazl-dna-api" />
+        <module name="bazl-dna-monitor (1)" />
+        <module name="bazl-dna-zuul" />
+        <module name="bazl-dna-generator" />
+        <module name="bazl-dna-elasticsearch" />
+        <module name="bazl-dna-test" />
+        <module name="bazl-dna-dubbo" />
+        <module name="bazl-dna-kafka" />
+        <module name="bazl-dna-gateway" />
+        <module name="bazl-dna-elasticsearch (1)" />
+        <module name="bazl-dna-gateway (1)" />
+        <module name="bazl-dna-turbine" />
+        <module name="bazl-dna-generator (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bazl-dna-api" target="1.5" />
+      <module name="bazl-dna-api " target="1.5" />
+      <module name="bazl-dna-common" target="1.5" />
+      <module name="bazl-dna-common (1)" target="1.5" />
+      <module name="bazl-dna-config" target="1.5" />
+      <module name="bazl-dna-deploy" target="1.5" />
+      <module name="bazl-dna-deploy (1)" target="1.5" />
+      <module name="bazl-dna-dubbo" target="1.5" />
+      <module name="bazl-dna-elasticsearch" target="1.5" />
+      <module name="bazl-dna-elasticsearch (1)" target="1.5" />
+      <module name="bazl-dna-eureka" target="1.5" />
+      <module name="bazl-dna-files" target="1.5" />
+      <module name="bazl-dna-files (1)" target="1.5" />
+      <module name="bazl-dna-gateway" target="1.5" />
+      <module name="bazl-dna-gateway (1)" target="1.5" />
+      <module name="bazl-dna-generator" target="1.5" />
+      <module name="bazl-dna-generator (1)" target="1.5" />
+      <module name="bazl-dna-hadoop" target="1.5" />
+      <module name="bazl-dna-kafka" target="1.5" />
+      <module name="bazl-dna-kafka (1)" target="1.5" />
+      <module name="bazl-dna-monitor" target="1.5" />
+      <module name="bazl-dna-monitor (1)" target="1.5" />
+      <module name="bazl-dna-springboot" target="1.5" />
+      <module name="bazl-dna-swagger" target="1.5" />
+      <module name="bazl-dna-system" target="1.5" />
+      <module name="bazl-dna-system (1)" target="1.5" />
+      <module name="bazl-dna-test" target="1.5" />
+      <module name="bazl-dna-turbine" target="1.5" />
+      <module name="bazl-dna-websocket" target="1.5" />
+      <module name="bazl-dna-zuul" target="1.5" />
+      <module name="dna-cloud" target="1.5" />
+      <module name="dna-nacos" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

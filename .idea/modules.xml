@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-api/bazl-dna-api.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-api/bazl-dna-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-api/bazl-dna-api .iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-api/bazl-dna-api .iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-common/bazl-dna-common.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-common/bazl-dna-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-common/bazl-dna-common (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-common/bazl-dna-common (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-config/bazl-dna-config.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-config/bazl-dna-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-deploy/bazl-dna-deploy.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-deploy/bazl-dna-deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-deploy/bazl-dna-deploy (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-deploy/bazl-dna-deploy (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-dubbo/bazl-dna-dubbo.iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-dubbo/bazl-dna-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-elasticsearch/bazl-dna-elasticsearch.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-elasticsearch/bazl-dna-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-elasticsearch/bazl-dna-elasticsearch (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-elasticsearch/bazl-dna-elasticsearch (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-eureka/bazl-dna-eureka.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-eureka/bazl-dna-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-files/bazl-dna-files.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-files/bazl-dna-files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-files/bazl-dna-files (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-files/bazl-dna-files (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-gateway/bazl-dna-gateway.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-gateway/bazl-dna-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-gateway/bazl-dna-gateway (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-gateway/bazl-dna-gateway (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-generator/bazl-dna-generator.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-generator/bazl-dna-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-generator/bazl-dna-generator (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-generator/bazl-dna-generator (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-hadoop/bazl-dna-hadoop.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-hadoop/bazl-dna-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-kafka/bazl-dna-kafka.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-kafka/bazl-dna-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-kafka/bazl-dna-kafka (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-kafka/bazl-dna-kafka (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-monitor/bazl-dna-monitor.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-monitor/bazl-dna-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-monitor/bazl-dna-monitor (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-monitor/bazl-dna-monitor (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-springboot/bazl-dna-springboot/bazl-dna-springboot.iml" filepath="$PROJECT_DIR$/dnacloud/dna-springboot/bazl-dna-springboot/bazl-dna-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-swagger/bazl-dna-swagger.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-swagger/bazl-dna-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-system/bazl-dna-system.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-system/bazl-dna-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-system/bazl-dna-system (1).iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/bazl-dna-system/bazl-dna-system (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-test/bazl-dna-test.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-test/bazl-dna-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-turbine/bazl-dna-turbine.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-turbine/bazl-dna-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-websocket/bazl-dna-websocket.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-websocket/bazl-dna-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-zuul/bazl-dna-zuul.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/bazl-dna-zuul/bazl-dna-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloud.iml" filepath="$PROJECT_DIR$/.idea/cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-cloud/dna-cloud.iml" filepath="$PROJECT_DIR$/dnacloud/dna-cloud/dna-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dnacloud/dna-nacos/dna-nacos.iml" filepath="$PROJECT_DIR$/dnacloud/dna-nacos/dna-nacos.iml" />
+    </modules>
+  </component>
+</project>
