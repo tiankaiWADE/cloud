@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8aec57f-a0ee-43e4-8255-bf9bc47a95f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-api/bazl-dna-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-api/bazl-dna-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-common/bazl-dna-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-common/bazl-dna-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-config/bazl-dna-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-config/bazl-dna-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-deploy/bazl-dna-deploy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-deploy/bazl-dna-deploy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-elasticsearch/bazl-dna-elasticsearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-elasticsearch/bazl-dna-elasticsearch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-eureka/bazl-dna-eureka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-eureka/bazl-dna-eureka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-files/bazl-dna-files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-files/bazl-dna-files.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-gateway/bazl-dna-gateway.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-gateway/bazl-dna-gateway.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-generator/bazl-dna-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-generator/bazl-dna-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-hadoop/bazl-dna-hadoop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-hadoop/bazl-dna-hadoop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-kafka/bazl-dna-kafka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-kafka/bazl-dna-kafka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-monitor/bazl-dna-monitor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-monitor/bazl-dna-monitor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-swagger/bazl-dna-swagger.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-swagger/bazl-dna-swagger.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-system/bazl-dna-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-system/bazl-dna-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-test/bazl-dna-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-test/bazl-dna-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-turbine/bazl-dna-turbine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-turbine/bazl-dna-turbine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-websocket/bazl-dna-websocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-websocket/bazl-dna-websocket.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/bazl-dna-zuul/bazl-dna-zuul.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/bazl-dna-zuul/bazl-dna-zuul.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/deploy/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/deploy/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dna-cloud/dna-cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/dna-cloud/dna-cloud.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\apache\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1v4XO8E4xBUw9UqQIzV3AY2mIac" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="SvnConfiguration">
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dna-cloud" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\edy\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\git\repository\cloud\dnacloud" />
+          <option name="myCopyRoot" value="D:\git\repository\cloud\dnacloud" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\git\repository\cloud\dnacloud" />
+          <option name="myCopyRoot" value="D:\git\repository\cloud\dnacloud" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8aec57f-a0ee-43e4-8255-bf9bc47a95f0" name="Default Changelist" comment="" />
+      <created>1625822301558</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625822301558</updated>
+      <workItem from="1625822304829" duration="270000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
