@@ -1,0 +1,24 @@
+
+server: 
+  port: 8707
+  undertow:
+    direct-buffers: true
+    threads:
+      io: 4
+      worker: 150
+    
+spring:
+  application:
+    name: bazl-dna-system
+  
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8 
+    
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.bazl.dna.sys.entity
+  
+        
+logging:
+  config: classpath:logback-spring.xml

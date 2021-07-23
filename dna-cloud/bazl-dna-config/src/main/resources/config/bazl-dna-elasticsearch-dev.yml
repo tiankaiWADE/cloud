@@ -1,0 +1,18 @@
+spring:
+  elasticsearch:
+    rest:
+      connection-timeout: 60000
+      read-timeout: 60000
+      uris: localhost:9200
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      client:
+        reactive:
+          connection-timeout: 60000
+          socket-timeout: 60000
+          max-in-memory-size: 500MB
+
+  main:
+    allow-bean-definition-overriding: true          

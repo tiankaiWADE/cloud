@@ -1,0 +1,4 @@
+#hdfs配置
+hdfs:
+  path: hdfs://localhost:9000
+  username: zhaoyong

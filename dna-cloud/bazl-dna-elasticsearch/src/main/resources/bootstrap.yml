@@ -1,0 +1,22 @@
+spring: 
+  profiles:
+    active: dev
+  cloud: 
+    bus:
+      trace:
+        enabled: true 
+    config: 
+      label: ${spring.profiles.active} 
+      profile: ${spring.profiles.active}
+      discovery: 
+        enabled: true
+        service-id: bazl-dna-config
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 10
+    lease-renewal-interval-in-seconds: 10
+  client:
+    service-url:
+      defaultZone: http://root:root@localhost:8700/eureka/

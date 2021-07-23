@@ -1,0 +1,119 @@
+package ${packageName}.service.impl;
+
+import java.sql.Timestamp;
+import java.util.Date;
+import java.util.List;
+import java.util.Optional;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.bazl.dna.annotation.RedisCacheAble;
+import com.bazl.dna.annotation.RedisCachePut;
+import com.bazl.dna.common.PublicConstants;
+import ${packageName}.dao.I${ClassName}Dao;
+import ${packageName}.entity.${ClassName};
+import ${packageName}.service.I${ClassName}Service;
+import com.bazl.dna.exception.DnaRuntimeException;
+import com.bazl.dna.util.QueryUtils;
+import com.bazl.dna.util.query.Criteria;
+import com.bazl.dna.util.query.QueryCriteriaBean;
+import com.bazl.dna.util.query.Restrictions;
+import com.google.common.base.Strings;
+
+/**
+ * ${functionName} Service 实现类
+ * 
+ * @author ${author}
+ *
+ */
+@Service
+public class ${ClassName}ServiceImpl implements I${ClassName}Service {
+	
+	private static final Logger LOGGER = LoggerFactory.getLogger(${ClassName}ServiceImpl.class);
+
+	private static final String CACHE_NAME = "${ClassName}";
+	private static final String CACHE_KEY_ID = "#id";
+	private static final String CACHE_VALUE_LIST = "findlist";
+	private static final String CACHE_VALUE_FIND_LIST = CACHE_NAME + "_" + CACHE_VALUE_LIST;
+	
+	@Autowired
+	private I${ClassName}Dao ${className}Dao;
+	
+	@Override
+	@Cacheable(value = CACHE_VALUE_FIND_LIST, keyGenerator = PublicConstants.KEY_GENERATOR)
+	public Page<${ClassName}> pageList(JSONObject paramJson) {
+		try {
+			QueryCriteriaBean data = JSON.toJavaObject(paramJson, QueryCriteriaBean.class);
+			Pageable pageable = QueryUtils.buildPageRequest(data);
+			// 查询条件参数
+			Criteria<${ClassName}> criteria = new Criteria<>();
+			criteria.add(Restrictions.eq(PublicConstants.PARAM_STATUS, PublicConstants.STATUS_YES));
+			return ${className}Dao.findAll(criteria, pageable);
+		} catch (Exception e) {
+			LOGGER.error("Error findList: ", e);
+		}
+		return null;
+	}
+
+	@Override
+	public List<${ClassName}> findList(JSONObject paramJson) {
+		Criteria<${ClassName}> criteria = new Criteria<>();
+		// 查询条件参数
+		criteria.add(Restrictions.eq(PublicConstants.PARAM_STATUS, PublicConstants.STATUS_YES));
+		return ${className}Dao.findAll(criteria);
+	}
+
+	@Override
+	@RedisCacheAble(value = CACHE_NAME, key = CACHE_KEY_ID)
+	public ${ClassName} getById(String id) {
+		try {
+			Optional<${ClassName}> optional = ${className}Dao.findById(id);
+			return optional.orElse(null);
+		} catch (Exception e) {
+			LOGGER.error("Error getById: ", e);
+		}
+		return null;
+	}
+
+	@Override
+	@Transactional
+	@RedisCachePut(value = CACHE_NAME, key = CACHE_KEY_ID)
+	@CacheEvict(value = CACHE_VALUE_FIND_LIST, allEntries = true)
+	public ${ClassName} save(${ClassName} entity) {
+		try {
+			if (Strings.isNullOrEmpty(entity.getId())) {
+				entity.setCreateTime(new Timestamp(new Date().getTime()));
+			}
+			entity.setStatus(PublicConstants.STATUS_YES);
+			entity.setUpdateTime(new Timestamp(new Date().getTime()));
+			return ${className}Dao.save(entity);
+		} catch (Exception e) {
+			LOGGER.error("Error save: ", e);
+			throw new DnaRuntimeException();
+		}
+	}
+
+	@Override
+	@Transactional
+	@CacheEvict(value = CACHE_VALUE_FIND_LIST, allEntries = true)
+	public int deleteById(String id) {
+		try {
+			${className}Dao.deleteById(id);
+			return 1;
+		} catch (Exception e) {
+			LOGGER.error("Error editStatus:", e);
+		}
+		return 0;
+	}
+
+}
