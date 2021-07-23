@@ -1,0 +1,66 @@
+<html>
+   <head>
+   
+   <meta charset="utf-8">
+   <title></title>
+    <script type="text/javascript" src="script/jquery.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){});
+		 var ws ;
+		 var user;
+		 var token = 10000;
+		 function joinSocket(){
+			if ("WebSocket" in window){
+			   user = $("#userName").val();
+			   token = $("#token").val();
+               ws = new WebSocket("ws://192.168.33.43:8701/ws/websocket?user="+user+"&token="+token);
+			   prepareChat();
+			}else{
+				 alert("您的浏览器不支持 WebSocket!");
+			}
+		 }
+
+		 function sendMsg(){
+			var msg = $("#contentMsg").val();
+            ws.send(msg);
+			ws.onmessage = function (evt) { 
+                var received_msg = evt.data.split("&&");
+				$("#showMsg").append("<div>"+received_msg[0]+"说:"+received_msg[1]+"</div>")
+            };
+		 }
+
+		 //$(document).ready(function(){
+			// prepareChat();
+		 // });
+
+		 function prepareChat(){
+			//连接建立后调用的函数
+			ws.onopen=function(){
+			}
+			//接收服务器传入的数据时候的处理
+			ws.onmessage=function(evt){
+				//向聊天室当框中追加信息
+				var received_msg = evt.data.split("&&");
+				$("#showMsg").append("<div>"+received_msg[0]+"说:"+received_msg[1]+"</div>")
+			}
+		}
+      </script>
+        
+   </head>
+   <body>
+      <div id="sse">
+		 用户名：<input type="text" id='userName'/></br>
+		 聊天通道：<input type="text" id='token'/>
+         <a href="javascript:joinSocket();">进入聊天</a>
+      </div>
+	  ----------------------------------------------------------
+      <div id="im-content">
+		 <input type="text" id='contentMsg'/>
+         <a href="javascript:sendMsg()">发送</a>
+		 <br/>
+		 <div id='showMsg'>
+			
+		 </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,53 @@
+{"properties": [
+  {
+    "name": "ACCESS_TOKEN_SECRET",
+    "type": "java.lang.String",
+    "description": "Token validate secret."
+  },
+  {
+    "name": "ACCESS_TOKEN_EXPIRY_MIN",
+    "type": "java.lang.String",
+    "description": "Token Expire minute time."
+  },
+  {
+    "name": "spring.redis.enable",
+    "type": "java.lang.Boolean",
+    "defaultValue": false,
+    "description": "Redis Cache enabled."
+  },
+  {
+    "name": "file.path",
+    "type": "java.lang.String",
+    "description": "File upload and download path."
+  },
+  {
+    "name": "file.excel.suffix",
+    "type": "java.lang.String",
+    "description": "Export excel file suffix."
+  },
+  {
+    "name": "ribbon.ConnectTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'ribbon.ConnectTimeout'"
+  },
+  {
+    "name": "ribbon.ReadTimeout",
+    "type": "java.lang.String",
+    "description": "A description for 'ribbon.ReadTimeout'"
+  },
+  {
+    "name": "hystrix.command.default.execution.timeout.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'hystrix.command.default.execution.timeout.enabled'"
+  },
+  {
+    "name": "hystrix.command.default.execution.isolation.thread.timeout-in-milliseconds",
+    "type": "java.lang.String",
+    "description": "A description for 'hystrix.command.default.execution.isolation.thread.timeout-in-milliseconds'"
+  },
+  {
+    "name": "spring.cloud.stream.default.group",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.stream.default.group'"
+  }
+]}

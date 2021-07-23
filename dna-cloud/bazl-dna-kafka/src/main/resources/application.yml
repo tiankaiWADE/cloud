@@ -1,0 +1,16 @@
+
+server: 
+  port: 8710
+  undertow:
+    direct-buffers: true
+    threads:
+      io: 4
+      worker: 150
+
+spring:
+  application:
+    name: bazl-dna-kafka
+
+logging:
+  config: classpath:logback-spring.xml
+  

@@ -1,0 +1,25 @@
+eureka:
+  instance:
+    prefer-ip-address: true 
+    lease-expiration-duration-in-seconds: 10
+    lease-renewal-interval-in-seconds: 10
+  client:
+    service-url: 
+      defaultZone: http://root:root@localhost:8700/eureka/
+      
+
+spring:  
+  cloud: 
+    bus:
+      trace:
+        enabled: true 
+    config:
+      label: master
+      profile: dev
+      discovery: 
+        enabled: true
+        service-id: bazl-dna-config
+        
+  main:    allow-bean-definition-overriding: true
+    
+
