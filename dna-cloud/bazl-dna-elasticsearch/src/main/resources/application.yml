@@ -1,28 +1,0 @@
-
-server:
-  port: 8709
-  undertow:
-    direct-buffers: true    threads:      io: 4      worker: 150
-
-spring:
-  application:
-    name: bazl-dna-elasticsearch
-    
-  # 线程池 
-  task:
-    scheduling:
-      thread-name-prefix: SyncElsearchDataTask-
-    execution:
-      pool:
-        allow-core-thread-timeout: false
-        max-size: 60
-        core-size: 40
-        queue-capacity: 100
-        keep-alive: 90
-
-logging:
-  config: classpath:logback-spring.xml
-  level:
-    org:
-      elasticsearch: error
-  
