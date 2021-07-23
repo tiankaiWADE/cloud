@@ -1,0 +1,23 @@
+
+server:
+  port: 8712
+  undertow:
+    direct-buffers: true
+    threads:
+      io: 4
+      worker: 150
+
+spring:
+  application:
+    name: bazl-dna-hadoop
+  
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8 
+    
+  main:    allow-bean-definition-overriding: true
+
+logging:
+  config: classpath:logback-spring.xml
+  
+      

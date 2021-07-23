@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    #mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dnacloud?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    username: root
+    password: 1234
+    
+    #postgres
+    #driver-class-name: org.postgresql.Driver
+    #url: jdbc:postgresql://localhost:5432/dnacloud
+    #username: postgres
+    #password: 1234
+    
+  jpa: 
+    hibernate:
+      ddl-auto: update #ddl-auto:设为update表示每次都不会重新建表
+    show-sql: false
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    #database-platform: org.hibernate.dialect.PostgreSQLDialect
+    open-in-view: true
+      
+  redis:
+    database: 1
+  
+  data:
+    redis:
+      repositories:
+        enabled: false
+          
+
+no_author: /system/auth/,/system/file/download
