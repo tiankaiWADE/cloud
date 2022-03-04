@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-api/bazl-dna-api.iml" filepath="$PROJECT_DIR$/bazl-dna-api/bazl-dna-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-common/bazl-dna-common.iml" filepath="$PROJECT_DIR$/bazl-dna-common/bazl-dna-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-deploy/bazl-dna-deploy.iml" filepath="$PROJECT_DIR$/bazl-dna-deploy/bazl-dna-deploy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo.iml" filepath="$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo-api/bazl-dna-dubbo-api.iml" filepath="$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo-api/bazl-dna-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo-consumer/bazl-dna-dubbo-consumer.iml" filepath="$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo-consumer/bazl-dna-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo-provider/bazl-dna-dubbo-provider.iml" filepath="$PROJECT_DIR$/bazl-dna-dubbo/bazl-dna-dubbo-provider/bazl-dna-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-elasticsearch/bazl-dna-elasticsearch.iml" filepath="$PROJECT_DIR$/bazl-dna-elasticsearch/bazl-dna-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-files/bazl-dna-files.iml" filepath="$PROJECT_DIR$/bazl-dna-files/bazl-dna-files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-gateway/bazl-dna-gateway.iml" filepath="$PROJECT_DIR$/bazl-dna-gateway/bazl-dna-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-generator/bazl-dna-generator.iml" filepath="$PROJECT_DIR$/bazl-dna-generator/bazl-dna-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-hadoop/bazl-dna-hadoop.iml" filepath="$PROJECT_DIR$/bazl-dna-hadoop/bazl-dna-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-kafka/bazl-dna-kafka.iml" filepath="$PROJECT_DIR$/bazl-dna-kafka/bazl-dna-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-monitor/bazl-dna-monitor.iml" filepath="$PROJECT_DIR$/bazl-dna-monitor/bazl-dna-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-rocketmq/bazl-dna-rocketmq.iml" filepath="$PROJECT_DIR$/bazl-dna-rocketmq/bazl-dna-rocketmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-swagger/bazl-dna-swagger.iml" filepath="$PROJECT_DIR$/bazl-dna-swagger/bazl-dna-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bazl-dna-system/bazl-dna-system.iml" filepath="$PROJECT_DIR$/bazl-dna-system/bazl-dna-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dna-nacos.iml" filepath="$PROJECT_DIR$/dna-nacos.iml" />
+    </modules>
+  </component>
+</project>

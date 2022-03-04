@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "ignore",
+      "type": "com.bazl.dna.gateway.config.properties.IgnoreWhiteProperties",
+      "sourceType": "com.bazl.dna.gateway.config.properties.IgnoreWhiteProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "ignore.whites",
+      "type": "java.util.List<java.lang.String>",
+      "description": "不校验列表",
+      "sourceType": "com.bazl.dna.gateway.config.properties.IgnoreWhiteProperties"
+    }
+  ],
+  "hints": []
+}
